@@ -1,0 +1,10 @@
+appId: com.nexusreader.app
+productName: NexusReader
+directories:
+  output: dist_electron
+files:
+  - "dist/electron/**/*"
+  - "renderer/out/**/*"
+  - "package.json"
+win:
+  target: dir
